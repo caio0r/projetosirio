@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  header {
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .container {
+    max-width: 650px;
+    margin: 10px auto;
+    background: #1e1e1e5e;
+    padding: 80px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+  }
+  input,
+  button,
+  select {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  input {
+    background-color: #181313d2;
+    color: white;
+  }
+  input:invalid {
+    border: 2px solid #f1dcdc;
+  }
+  button {
+    background: #0d64bbcb;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #2196f3;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  table,
+  th,
+  td {
+    border: 0.5px solid white;
+  }
+  th,
+  td {
+    padding: 5px;
+    text-align: left;
+  }
+  .baixo-estoque {
+    background-color: #ff4444;
+    color: white;
+  }
+  .mensagem {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  .sucesso {
+    background-color: #4caf50;
+  }
+  .erro {
+    background-color: #ff4444;
+  }
+  .acoes button {
+    margin: 2px;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+    input,
+    button,
+    select {
+      padding: 10px;
+      font-size: 14px;
+    }
+  }
